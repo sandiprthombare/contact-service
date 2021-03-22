@@ -32,7 +32,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sandip.contact.ContactServiceApplication;
 import com.sandip.contact.dto.ContactDto;
-import com.sandip.contact.exceptions.ErrorDetails;
+import com.sandip.contact.dto.ErrorDetails;
 import com.sandip.contact.exceptions.InvalidInputException;
 import com.sandip.contact.exceptions.RecordNotFoundException;
 import com.sandip.contact.service.ContactServiceImpl;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.sandip.contact.exceptions;
+package com.sandip.contact.dto;
 
 import java.util.Date;
 import java.util.List;

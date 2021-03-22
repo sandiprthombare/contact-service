@@ -1,4 +1,4 @@
-package com.sandip.contact.exceptions;
+package com.sandip.contact;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -10,6 +10,10 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+
+import com.sandip.contact.dto.ErrorDetails;
+import com.sandip.contact.exceptions.InvalidInputException;
+import com.sandip.contact.exceptions.RecordNotFoundException;
 
 /**
  * 
