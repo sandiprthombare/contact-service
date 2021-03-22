@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.evolent.contact.dto;
+package com.sandip.contact.dto;
 
 import java.io.Serializable;
 

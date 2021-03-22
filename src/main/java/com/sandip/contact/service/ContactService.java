@@ -1,13 +1,13 @@
 /**
  * 
  */
-package com.evolent.contact.service;
+package com.sandip.contact.service;
 
 import java.util.List;
 import java.util.Map;
 
-import com.evolent.contact.dto.ContactDto;
-import com.evolent.contact.exceptions.RecordNotFoundException;
+import com.sandip.contact.dto.ContactDto;
+import com.sandip.contact.exceptions.RecordNotFoundException;
 
 /**
  * @author Sandip

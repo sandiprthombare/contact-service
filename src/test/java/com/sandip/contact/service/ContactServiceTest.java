@@ -32,15 +32,15 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.test.util.ReflectionTestUtils;
 
-import com.evolent.contact.ContactServiceApplication;
-import com.evolent.contact.dto.ContactDto;
-import com.evolent.contact.exceptions.InvalidInputException;
-import com.evolent.contact.exceptions.RecordNotFoundException;
-import com.evolent.contact.model.Contact;
-import com.evolent.contact.repository.ContactRepository;
-import com.evolent.contact.service.ContactServiceImpl;
-import com.evolent.contact.util.Util;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sandip.contact.ContactServiceApplication;
+import com.sandip.contact.dto.ContactDto;
+import com.sandip.contact.exceptions.InvalidInputException;
+import com.sandip.contact.exceptions.RecordNotFoundException;
+import com.sandip.contact.model.Contact;
+import com.sandip.contact.repository.ContactRepository;
+import com.sandip.contact.service.ContactServiceImpl;
+import com.sandip.contact.util.Util;
 
 /**
  * @author Sandip

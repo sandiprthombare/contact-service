@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.evolent.contact;
+package com.sandip.contact;
 
 import java.util.Arrays;
 
@@ -26,10 +26,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class LoggingAspect {
 
-	@Pointcut("execution(* com.evolent.contact.c*.*.*(..))")
+	@Pointcut("execution(* com.sandip.contact.c*.*.*(..))")
 	protected void loggingOperation() {
 	}
-	@Pointcut("execution(* com.evolent.contact.s*.*.*(..))")
+	@Pointcut("execution(* com.sandip.contact.s*.*.*(..))")
 	protected void loggingOperationService() {
 	}
 

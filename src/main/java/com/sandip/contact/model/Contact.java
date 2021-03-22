@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.evolent.contact.model;
+package com.sandip.contact.model;
 
 import java.util.Date;
 

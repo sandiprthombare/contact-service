@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.evolent.contact.service;
+package com.sandip.contact.service;
 
 import java.util.List;
 import java.util.Map;
@@ -14,12 +14,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import com.evolent.contact.dto.ContactDto;
-import com.evolent.contact.exceptions.InvalidInputException;
-import com.evolent.contact.exceptions.RecordNotFoundException;
-import com.evolent.contact.model.Contact;
-import com.evolent.contact.repository.ContactRepository;
-import com.evolent.contact.util.Util;
+import com.sandip.contact.dto.ContactDto;
+import com.sandip.contact.exceptions.InvalidInputException;
+import com.sandip.contact.exceptions.RecordNotFoundException;
+import com.sandip.contact.model.Contact;
+import com.sandip.contact.repository.ContactRepository;
+import com.sandip.contact.util.Util;
 
 import lombok.extern.slf4j.Slf4j;
 

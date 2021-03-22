@@ -9,7 +9,7 @@
 		<version>2.4.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.evolent</groupId>
+	<groupId>com.sandip</groupId>
 	<artifactId>contact-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>contact-service</name>

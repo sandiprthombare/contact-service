@@ -1,14 +1,14 @@
 /**
  * 
  */
-package com.evolent.contact.util;
+package com.sandip.contact.util;
 
 import org.dozer.DozerBeanMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.evolent.contact.dto.ContactDto;
-import com.evolent.contact.model.Contact;
+import com.sandip.contact.dto.ContactDto;
+import com.sandip.contact.model.Contact;
 
 /**
  * @author Purvaj

@@ -1,4 +1,4 @@
-package com.evolent.contact;
+package com.sandip.contact;
 
 import org.dozer.DozerBeanMapper;
 import org.springframework.boot.SpringApplication;

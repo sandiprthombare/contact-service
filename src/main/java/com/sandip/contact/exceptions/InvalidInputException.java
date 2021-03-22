@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.evolent.contact.exceptions;
+package com.sandip.contact.exceptions;
 
 /**
  * @author Sandip

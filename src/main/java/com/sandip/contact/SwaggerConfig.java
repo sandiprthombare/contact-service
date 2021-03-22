@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.evolent.contact;
+package com.sandip.contact;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -28,7 +28,7 @@ public class SwaggerConfig {
 
 	  @Bean
 	  public Docket api() {
-	    return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.basePackage("com.evolent")).paths(PathSelectors.any()).build()
+	    return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.basePackage("com.sandip")).paths(PathSelectors.any()).build()
 	        .apiInfo(DEFAULT_API_INFO)
 	        .produces(DEFAULT_PRODUCES_AND_CONSUMES)
 	        .consumes(DEFAULT_PRODUCES_AND_CONSUMES);

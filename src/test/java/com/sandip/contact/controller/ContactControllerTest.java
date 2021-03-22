@@ -28,14 +28,14 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
-import com.evolent.contact.ContactServiceApplication;
-import com.evolent.contact.dto.ContactDto;
-import com.evolent.contact.exceptions.ErrorDetails;
-import com.evolent.contact.exceptions.InvalidInputException;
-import com.evolent.contact.exceptions.RecordNotFoundException;
-import com.evolent.contact.service.ContactServiceImpl;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sandip.contact.ContactServiceApplication;
+import com.sandip.contact.dto.ContactDto;
+import com.sandip.contact.exceptions.ErrorDetails;
+import com.sandip.contact.exceptions.InvalidInputException;
+import com.sandip.contact.exceptions.RecordNotFoundException;
+import com.sandip.contact.service.ContactServiceImpl;
 
 /**
  * @author Sandip
