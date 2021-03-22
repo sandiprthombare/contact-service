@@ -2,8 +2,7 @@
 
 *This microservice is based in spring boot framework. Providing API's to manage contact details
 ## Folder Structure
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── target                   # Compiled files (alternatively `dist`)
     ├── src                     # Source files (alternatively `lib` or `app`)
     │   ├── main
     │   │   ├── java
